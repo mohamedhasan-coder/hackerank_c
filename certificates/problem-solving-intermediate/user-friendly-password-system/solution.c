@@ -11,7 +11,7 @@ int setPassword(char* password)
 		res *= P;
 		res %= MOD;
 		res += password[i];
-		res %= MOD;
+		res %= MOD; 
 	}
 	
 	return res;
