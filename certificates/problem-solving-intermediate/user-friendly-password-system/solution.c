@@ -7,7 +7,7 @@ int setPassword(char* password)
 	long res = 0;
 	
 	for (int i = 0; password[i]; i++)
-	{
+	{ 
 		res *= P;
 		res %= MOD;
 		res += password[i];
