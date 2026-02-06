@@ -73,5 +73,5 @@ int *authEvents(int events_rows, int events_columns, char ***events, int *result
 	}
 	
 	*result_count = resIdx;
-	return res;
+	return res; 
 }
