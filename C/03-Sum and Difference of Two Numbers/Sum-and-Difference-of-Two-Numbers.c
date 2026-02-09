@@ -6,7 +6,7 @@
 int main()
 {
   int int1,int2;
-  float float1,float2;
+  float float1,float2; 
   
   scanf("%d %d %f %f", &int1 ,&int2, &float1, &float2);
   
