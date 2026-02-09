@@ -6,7 +6,7 @@ long occ_arr[1000000];
 int renameFile(char* newName,char* oldName)
 {
     long new_lenght = strlen(newName);
-    long old_length = strlen(oldName);
+    long old_length = strlen(oldName)
     
 
     for (long z = 0; z < old_length + 1; z++)
