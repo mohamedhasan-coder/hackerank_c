@@ -1,4 +1,4 @@
- #define MOD 1000000007
+#define MOD 1000000007
 
 long temp_arr[1000000];
 long occ_arr[1000000];
