@@ -7,7 +7,6 @@ int renameFile(char* newName,char* oldName)
 {
     long new_lenght = strlen(newName); 
     long old_length = strlen(oldName);
-      cc
 
     for (long z = 0; z < old_length + 1; z++)
     {
