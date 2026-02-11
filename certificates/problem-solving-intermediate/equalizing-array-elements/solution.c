@@ -11,9 +11,9 @@ int minOperations(int arr_count, int* arr, int threshold, int d)
     
     qsort(arr, arr_count, sizeof(int), cmp);
     
-    int minO = INT_MAX;
+    int minO = INT_MAX; 
 
-    for (int i = 0; i < arr_count; i++)
+    for (int i = 0; i < arr_c ount; i++)
     {
         int steps = 0;
         
