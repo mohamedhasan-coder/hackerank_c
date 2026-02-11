@@ -9,7 +9,7 @@ int minOperations(int arr_count, int* arr, int threshold, int d)
 {
     //sorting
     
-    qsort(arr, arr_count, sizeof(int), cmp);  
+    qsort(arr, arr_count, sizeof(int), cmp);        
     
     int minO = INT_MAX; 
 
